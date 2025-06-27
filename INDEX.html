@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MELATI PAGE</title>
+</head>
+
+  <style>
+    {
+      box-sizing: border-box;
+    }
+
+    body 
+    {
+      font-family: Georgia, Times New Roman, sans-serif;
+      margin: 0;
+    }
+
+    body
+    {
+      background-image: url(strawberry_wallpaper.jpeg);
+
+    }
+
+    h1
+    {
+      text-shadow: 2px 2px 5px ghostwhite;
+      color: #F775A9;
+      text-align: center;
+    }
+
+    .header
+    {
+      padding: 80px;
+      text-align: center;
+      background: #F775A9;
+      color: #F9EDD1;
+    }
+
+    .navbar 
+    {
+      overflow: hidden;
+      background-color: #FEB7C9;
+    }
+
+    .navbar a 
+    {
+      float: left;
+      display: block;
+      color: #9E6F67;
+      text-align: center;
+      padding: 20px 25px;
+      text-decoration: none;
+    }
+
+    .navbar a.right 
+    {
+      float: right;
+    }
+
+    .navbar a:hover 
+    {
+      background-color: #B8DEA4;
+      color: white;
+    }
+
+    .side 
+    {
+      flex: 30%; 
+      flex: 30%;
+      background-color: #F9EDD1;
+      padding: 30px;
+    }
+
+    .main 
+    {   
+      flex: 70%; 
+      flex: 70%;
+      background-color: #FEB7C9;
+      padding: 20px;
+    }
+
+    div.container 
+    {
+      text-align: center;
+    }
+
+    ul.myUL 
+    {
+      display: inline-block;
+      text-align: left;
+    }
+
+    .center 
+    {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+    .container 
+    {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .slider 
+   {
+      position: relative;
+      max-width: 100%;
+      margin: 2rem auto;
+      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+        
+    .slides 
+    {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+        
+    .slides img 
+    {
+      width: 50%;
+      height: 50;
+    }
+
+    .navigation 
+    {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+    }
+
+    .navigation button 
+    {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+    
+    .navigation button:hover 
+    {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    table, tr, th, td
+    {
+      border: 1px dotted; black;
+    }
+
+    th, td
+    {
+      padding: 5px;
+    }
+
+    th
+    {
+      background-color: lightgray;
+      color: black;
+      text-align: center;
+    }
+
+    td:nth-child(even)
+    {
+      background-color: lightpink;
+    }
+
+    td
+    {
+      text-align: center;
+      font-family: Georgia;
+    }
+
+    footer
+    {
+      text-align: center;
+      margin-top: 2rem;
+      padding: 1rem 0;
+      background: #FEB7C9;
+      color: #fff;
+    }
+    
+  </style>
+
+<body>
+
+  <div class="header">
+    <h1>WELCOME TO MY PERSONAL WEBSITE!</h1>
+    <p>Hi! My name is Nur Anisah Melati</p>
+  </div>
+
+  <div class="navbar">
+    <a href="MySkills.html">My Skills</a>
+    <a href="MyQualification.html">My Qualification</a>
+    <a href="MyEducation.html">My Education</a>
+    <a href="MyWorkExperience.html">My Work Experience</a>
+    <a href="index.html" class="right">About Me</a>
+    </div>
+
+  <div class="container">
+  <div class="side">
+  <h1>My Gallery</h1>
+  <section id="gallery">
+  <div class="slider">
+      <div class="slides">
+      <img src="melati2.jpeg" alt="Photo of Me">
+      <img src="melati3.jpeg" alt="Photo of Me">
+      <img src="melati4.jpeg" alt="Photo of Me">
+      <img src="melati5.jpeg" alt="Photo of Me">
+      <img src="melati14.jpeg" alt="Photo of Me">
+      <img src="melati9.jpeg" alt="Photo of Me">
+      <img src="melati12.jpeg" alt="Photo of Me">
+      <img src="melati11.jpeg" alt="Photo of Me">
+
+      </div>
+      <div class="navigation">
+      <button id="prev">&#10094;</button>
+      <button id="next">&#10095;</button>
+      </div>
+  </div>
+  </section>
+
+  
+   <div class="main">
+    <h1>Biodata</h1>
+
+  <center><table>
+  <tr>
+    <th>Name</th>
+    <td>Nur Anisah Melati Binti Ahmad Fadil</td>
+  </tr>
+
+  <tr>
+    <th>Ic Number</th>
+    <td>010720140984</td>
+  </tr>
+
+  <tr>
+    <th>Age</th>
+    <td>24 years old</td>
+  </tr>
+
+  <tr>
+    <th>Date of birth</th>
+    <td> 20th July 2004</td>
+  </tr>
+
+  <tr>
+    <th>Gender</th>
+    <td>Girl</td>
+
+  <tr>
+    <th>Race</th>
+    <td>Malay</td>
+  </tr>
+
+  <tr>
+    <th>Nationality</th>
+    <td>Malaysia</td>
+  </tr>
+
+  <tr>
+    <th>State</th>
+    <td>Kuala Lumpur</td>
+  </tr>
+    
+  </table></center>
+
+      <p>Greetings to everyone! Hello! I'm Nur Anisah Melati, currently pursuing a Diploma in Information Management at Universiti Teknologi Mara (UiTM) in the Rembau branch. On this website, I have the opportunity to share my experiences and journey throughout my studies. I am a driven individual with a clear vision and mission in my studies and life, focused on achieving my goals. 
+      <br>
+      A little about my life, I am the second of three siblings, and my goal is to repay all the hard work my family has given me. Being the youngest in my family, I constantly seek out new experiences independently and strive to make my family proud of my accomplishments.
+      </p>
+
+    <p id="content1" style="background-color: #F9EDD1; color: white; font-family: Georgia ; font-size: 35px;">Life Motto</p>
+    <center><button type="button" onclick='document.getElementById("content1").innerHTML = "Peace of Mind"'>Click Here</button></center>
+
+    <h1>My Hobby</h1>
+    <p>Music has always been my favorite escape and a constant source of inspiration. I’m especially drawn to the vibrant beats and heartfelt lyrics of pop and R&B, which never fail to set the perfect mood, whether I’m relaxing or seeking motivation. My playlist is filled with tracks from Taylor Swift, whose storytelling is unmatched, NIKI, whose soulful melodies captivate me, and SZA, whose unique sound feels like poetry in motion. I’m also a huge fan of Rosé, whose voice exudes emotion, and Ariana Grande, who seamlessly blends powerhouse vocals with irresistible rhythm. Each artist brings something special to my love for music, making every listening experience unforgettable.</p>
+
+    <center><table>
+    <tr>
+          <th style="width:50%">Artist</th>
+          <th style="width:50%">Favourite Album</th>
+
+        </tr>
+
+        <tr>
+            <td>Taylor Swift</td>
+            <td><img src="album1.png" style="height: 100px;"> <p>Delicate</p></td>
+        </tr>
+
+        <tr>
+            <td>NIKI</td>
+            <td><img src="album2.jpg" style="height: 100px;"> <p>NICOLE</p></td>
+        </tr>
+
+        <tr>
+            <td>SZA</td>
+            <td><img src="album3.jpg" style="height: 100px;"> <p>SOS</p></td>
+        </tr>
+
+        <tr>
+            <td>Rosé</td>
+            <td><img src="album4.png" style="height: 100px;"> <p>Rosie</p></td>
+        </tr>
+
+        <tr>
+            <td>Ariana Grande</td>
+            <td><img src="album5.png" style="height: 100px;"> <p>Eternal Sunshine</p></td>
+        </tr>
+    </tr>
+
+</table></center>
+
+
+  <h1>Favourite Song</h1>
+    <audio controls>
+    <source src="Audio_taylor.mp3" type="audio/mp3"> Your Browser doesn't support audio element
+    </audio>
+    <audio controls>
+    <source src="Audio_niki.mp3" type="audio/mp3"> Your Browser doesn't support audio element
+    </audio>
+    <audio controls>
+    <source src="Audio_saturn.mp3" type="audio/mp3"> Your Browser doesn't support audio element
+    </audio>
+    </div>
+
+
+
+
+
+ <script>
+        const slides = document.querySelector('.slides');
+        const images = document.querySelectorAll('.slides img');
+        const prevButton = document.getElementById('prev');
+        const nextButton = document.getElementById('next');
+
+        let currentIndex = 0;
+
+        function updateSlide(position) {
+            slides.style.transform = `translateX(-${position * 100}%)`;
+        }
+
+        prevButton.addEventListener('click', () => {
+            currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
+            updateSlide(currentIndex);
+        });
+
+        nextButton.addEventListener('click', () => {
+            currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
+            updateSlide(currentIndex);
+        });
+    </script>
+
+    <footer>
+      <p>&copy; 2025 Melati Personal Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
